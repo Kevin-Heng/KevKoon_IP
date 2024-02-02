@@ -5,7 +5,7 @@
 li, a{
     font-family: 'Lexend', sans-serif;
     font-weight: 500;
-    font-size: 23px;
+    font-size: 25px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -56,6 +56,7 @@ nav{
 
 
 /*--Body --*/
+/*--Intro--*/
 #intro{
     display:flex;
     flex-direction: row;
@@ -72,6 +73,7 @@ nav{
     background-color: #c73f3f;
 }
 
+/*--Features area--*/
 #features {
     display: flex;
     font-family: 'Lexend', sans-serif;
@@ -88,11 +90,40 @@ nav{
     text-align: center;
 }
 
-.temp{
+.features-items{
     display:flex;
     justify-content: center;
     align-content: center;
+    list-style: none;
+    margin:10px;
 }
+
+.features-items li{
+    display:inline-block;
+    padding: 0px 30px;
+    cursor:pointer;
+}
+
+.features-items li a {
+    transition: all 0.3s ease 0s;
+}
+
+button{
+    font-family: 'Lexend', sans-serif;
+    font-size: 21px;
+    padding:9px 30px;
+    border: none;
+    background-color: rgba(0,136,169,1);
+    border-radius: 50px;
+    cursor:pointer;
+    transition:all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+
 
 
 
