@@ -24,7 +24,7 @@ nav{
     height:70px;
     width:170px;
     left:50px;
-    top:25px;
+    top:30px;
 }
 
 .nav_links {
@@ -45,6 +45,17 @@ nav{
     color: #000000;
 }
 
+#account{
+    position:absolute;
+    height:65px;
+    width:65px;
+    background-color: #edf0f1;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    right:50px;
+}
+
+
 /*--Body --*/
 #intro{
     display:flex;
@@ -56,6 +67,7 @@ nav{
 
 #welcome-text{
     display:flex;
+    font-family: 'Lexend', sans-serif;
     height:500px;
     width:45%;
     background-color: #c73f3f;
