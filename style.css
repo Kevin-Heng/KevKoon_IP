@@ -20,7 +20,7 @@ nav{
 
 #logo img{
     position:absolute;
-    height:70px;
+    height:75px;
     width:170px;
     left:50px;
     top:30px;
@@ -122,6 +122,25 @@ button{
 button:hover{
     background-color: rgba(0,136,169,0.8);
 }
+
+/*--Details of feature--*/
+#info{
+    height:300px;
+    background-color: bisque;
+}
+
+.feature-desc{
+    display:flex;
+    background-color: aqua;
+    height:300px;
+    width:40%;
+    font-family: 'Lexend', sans-serif;
+    justify-content:right;
+    align-items: center;
+    padding-right: 20px;
+    
+}
+
 
 
 
