@@ -77,8 +77,7 @@ nav{
     font-family: 'Lexend', sans-serif;
     background-color: #F38C75;
     height: 500px;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
 }
 
 #features-text{
@@ -86,8 +85,14 @@ nav{
     font-weight: bold;
     font-size: 30px;
     margin:10px;
+    text-align: center;
 }
 
+.temp{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
 
 
 
