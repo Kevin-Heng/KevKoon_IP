@@ -12,7 +12,6 @@ li, a{
 
 nav{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items:center;
     padding: 30px 10%;
@@ -81,7 +80,7 @@ nav{
     justify-content: center;
     align-content: center;
 }
-#features-text{
-    font-weight: bold;
-    font-size: 30px;
-}
+
+
+
+
