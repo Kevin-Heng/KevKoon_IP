@@ -78,4 +78,10 @@ nav{
     font-family: 'Lexend', sans-serif;
     background-color: #F38C75;
     height:500px;
+    justify-content: center;
+    align-content: center;
+}
+#features-text{
+    font-weight: bold;
+    font-size: 30px;
 }
