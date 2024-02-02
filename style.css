@@ -20,14 +20,7 @@ header{
     justify-content: center;
     align-items:center;
     padding: 30px 10%;
-    background-color: bisque;
-}
 
-#logo{
-    height:200px;
-    width:200px;
-    background-color: bisque;
-    
 }
 
 .nav_links {
@@ -36,6 +29,7 @@ header{
 
 .nav_links li{
     display:inline-block;
+    padding: 0px 30px;
 }
 
 .nav_links li a {
@@ -47,7 +41,7 @@ header{
 }
 
 button{
-    padding: 9px 25%;
+    padding: 9px 25px;
     background-color: rgba(0,136,169,1);
     border:none;
     border-radius: 50px;
