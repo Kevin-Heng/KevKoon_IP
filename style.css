@@ -72,3 +72,10 @@ nav{
     width:45%;
     background-color: #c73f3f;
 }
+
+#features{
+    display:flex;
+    font-family: 'Lexend', sans-serif;
+    background-color: #F38C75;
+    height:500px;
+}
