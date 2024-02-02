@@ -72,13 +72,20 @@ nav{
     background-color: #c73f3f;
 }
 
-#features{
-    display:flex;
+#features {
+    display: flex;
     font-family: 'Lexend', sans-serif;
     background-color: #F38C75;
-    height:500px;
+    height: 500px;
     justify-content: center;
     align-content: center;
+}
+
+#features-text{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin:10px;
 }
 
 
