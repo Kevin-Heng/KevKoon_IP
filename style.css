@@ -132,14 +132,28 @@ button:hover{
 
 .feature-desc{
     display:flex;
-    background-color: aqua;
+    flex-direction: column;
     height:300px;
     width:40%;
     font-family: 'Lexend', sans-serif;
-    justify-content:right;
-    align-items: center;
     padding-right: 20px;
 }
+
+.feature-name{
+    display: flex;
+    align-self: center;
+    justify-content: right;
+    height: 200px;
+    background-color: black;
+}
+
+.main-desc{
+    display: flex;
+    justify-content: right;
+    align-content: center;
+
+}
+
 
 .feature-img{
     display: flex;
