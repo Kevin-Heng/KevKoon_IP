@@ -102,6 +102,7 @@ body{
 #welcome-img{
     display: flex;
     padding-left: 100px;
+    padding-top:80px;
 }
 /*--Features area--*/
 #features {
@@ -109,7 +110,7 @@ body{
     font-family: 'Lexend', sans-serif;
     height: 500px;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 10%;
 }
 
 #features-text{
@@ -174,38 +175,28 @@ button:hover{
     display:flex;
     flex-direction: column;
     height:500px;
-    width:40%;
     font-family: 'Lexend', sans-serif;
     padding-right: 20px;
     text-align: right;
     justify-content: center;
-    align-items: flex-end;
-    width:45%;
+    align-items:flex-end;
+    width:35%;
 }
 
 #feature-name{
-    display: flex;
     font-weight: bold;
     font-size: 33px;
-    justify-content: center;
-    text-align: center;
-    padding-right: 168px;
 }
 
 #main-desc{
-    display: flex;
-    justify-content: right;
-    align-content: center;
     font-size: 23px;
-
+    
 }
 
 
 .feature-img{
     display: flex;
     height:500px;
-    width:30%;
-    padding-left: 100px;
 }
 
 
