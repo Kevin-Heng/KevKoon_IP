@@ -198,11 +198,11 @@ button:hover{
     padding-left:100px;
 }
 
-/*Advertise mobile app*/
+/*--Advertise mobile app--*/
 #mobile-app{
     display: flex;
     flex-direction: row;
-    height: 500px;
+    height: 600px;
     justify-content: center;
     align-items: center;
     text-align: right;
@@ -223,5 +223,11 @@ button:hover{
 }
 
 
+/*--Footer socials-->*/
+#socials{
+    display: flex;
+    height:200px;
+    background-color: #edf0f1;
+}
 
 
