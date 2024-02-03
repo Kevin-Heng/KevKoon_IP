@@ -1,7 +1,6 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <link href="script.js">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
@@ -36,14 +35,17 @@
         <section id="features">
             <h1 id="features-text">Features</h1>
             <ul class="features-items">
-                <li><a href="#"><button>PLAN</button></a></li>
-                <li><a href="#"><button>TRACK</button></a></li>
-                <li><a href="#"><button>COLLABORATE</button></a></li>
+                <li><button id="plan-button" onclick="changePlanFeature()">PLAN</button></li>
+                <li><button id="track-button" onclick="changeTrackFeature()">TRACK</button></li>
+                <li><button id="collab-button" onclick="changeCollabFeature()">COLLABORATE</button></a></li>
             </ul>
+
+            <script src="script.js"></script>
+
             <div id="info">
                 <div class="feature-desc">
-                    <div class="feature-name">Plan</div>
-                    <div class="main-desc">Get down to planning</div>
+                    <div id="feature-name">Plan</div>
+                    <div id="main-desc">Get down to planning</div>
                 </div>
                 <div class="feature-img">
                     <img src="blank.jpg">

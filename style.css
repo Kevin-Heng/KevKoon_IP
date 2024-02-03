@@ -23,7 +23,7 @@ nav{
     height:75px;
     width:170px;
     left:50px;
-    top:30px;
+    top:25px;
 }
 
 .nav_links {
@@ -156,6 +156,12 @@ button:hover{
     border:1px solid rgba(255,255,255,0.8);
 }
 
+#plan-button{
+    background-color: #009444;
+}
+
+
+
 /*--Details of feature--*/
 #info{
     display: flex;
@@ -177,7 +183,7 @@ button:hover{
     width:45%;
 }
 
-.feature-name{
+#feature-name{
     display: flex;
     font-weight: bold;
     font-size: 33px;
@@ -186,7 +192,7 @@ button:hover{
     padding-right: 168px;
 }
 
-.main-desc{
+#main-desc{
     display: flex;
     justify-content: right;
     align-content: center;
