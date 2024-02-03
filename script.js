@@ -49,6 +49,6 @@ function changeCollabFeature(){
     name.innerHTML = "<div>Collaborate</div>";
     section.innerHTML = "<div>Add friends and collaborate with them in finanicial goals</div>";
 
-    img.src = "jett.jpg"
+    img.src = "jett.jpeg"
     
 }
