@@ -137,12 +137,12 @@ button:hover{
     width:40%;
     font-family: 'Lexend', sans-serif;
     padding-right: 20px;
+    text-align: right;
+    justify-content: center;
 }
 
 .feature-name{
     display: flex;
-    align-self: center;
-    justify-content: right;
     height: 200px;
     background-color: black;
 }
