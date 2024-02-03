@@ -58,7 +58,9 @@ nav{
 /*--Body --*/
 body{
     background-color: #FAD983;
+    margin:0px;
 }
+
 /*--Intro--*/
 #intro{
     display:flex;
@@ -71,7 +73,7 @@ body{
     display:flex;
     font-family: 'Lexend', sans-serif;
     height:500px;
-    width:45%;
+    width:42%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
@@ -96,12 +98,18 @@ body{
     font-size: 30px;
     font-weight: 600;
 }
+
+#welcome-img{
+    display: flex;
+    padding-left: 100px;
+}
 /*--Features area--*/
 #features {
     display: flex;
     font-family: 'Lexend', sans-serif;
     height: 500px;
     flex-direction: column;
+    padding-top: 50px;
 }
 
 #features-text{
@@ -123,6 +131,7 @@ body{
 .features-items li{
     display:inline-block;
     padding: 0px 30px;
+    padding-top: 10px;
     cursor:pointer;
 }
 
@@ -152,18 +161,20 @@ button:hover{
     display: flex;
     height:300px;
     flex-direction: row;
+    padding-top: 50px;
 }
 
 .feature-desc{
     display:flex;
     flex-direction: column;
-    height:300px;
+    height:500px;
     width:40%;
     font-family: 'Lexend', sans-serif;
     padding-right: 20px;
     text-align: right;
     justify-content: center;
     align-items: flex-end;
+    width:45%;
 }
 
 .feature-name{
@@ -186,8 +197,9 @@ button:hover{
 
 .feature-img{
     display: flex;
-    width:60%;
-
+    height:500px;
+    width:30%;
+    padding-left: 100px;
 }
 
 
