@@ -228,6 +228,38 @@ button:hover{
     display: flex;
     height:200px;
     background-color: #edf0f1;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Lexend', sans-serif;
+    padding-top: 20px;
 }
 
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width:250px;
+    align-items: center;
+}
+
+#contact-title, #socials-title{
+    font-size: 25px;
+    font-weight: 500; 
+    text-decoration: underline;
+}
+
+.contact-info{
+    padding: 10px;
+}
+
+#social-media{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+}
+
+.socials-info{
+    padding:10px;
+}
 
