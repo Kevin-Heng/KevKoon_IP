@@ -225,10 +225,10 @@ button:hover{
 
 /*--Footer-->*/
 /*--Socials--*/
-#socials{
+#company-info{
     display: flex;
-    height:200px;
-    background-color: 009444;
+    height:180px;
+    background-color:#edf0f1;
     justify-content: center;
     align-content:center;
     font-family: 'Lexend', sans-serif;
@@ -236,33 +236,54 @@ button:hover{
     flex-direction: row;
 }
 
-#contact{
+
+
+#about, #contact, #resource{
     display: flex;
     flex-direction: column;
     width:250px;
     align-items: center;
 }
 
-#contact-title, #socials-title{
+#about-title, #contact-title,  #resource-title{
     font-size: 25px;
     font-weight: 500; 
-    color:#edf0f1;
+    color:rgba(236, 60, 60, 1)
 }
 
-.contact-info{
+.contact-info, .about-info, .resource-info{
     padding: 10px;
+    color:black;
+}
+
+.about-info:hover, .resource-info:hover{
+    text-decoration: underline rgba(152, 152, 152, 0.8);
+    cursor:pointer;
 }
 
 #social-media{
     display: flex;
-    flex-direction: column;
-    width: 250px;
+    flex-direction: row;
+    background-color:#edf0f1;
+    justify-content: space-between;
     align-items: center;
+    width:auto;
+    height:100px;
+    border-bottom: 2px solid rgba(152, 152, 152, 0.3);
+}
+
+#socials-logo{
+    display: flex;
+    height: 65px;
+    width: 160px;
+    padding-left:30px;
 }
 
 #socials-icons{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding-right:30px;
 }
 
 #facebook-icon{
