@@ -194,7 +194,7 @@ button:hover{
 }
 
 
-.feature-img{
+#feature-img{
     display: flex;
     height:500px;
 }
