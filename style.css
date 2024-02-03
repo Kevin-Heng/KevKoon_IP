@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items:center;
-    padding: 30px 10%;
+    padding: 30px;
     background-color: #F38C75;
 }
 
@@ -56,6 +56,9 @@ nav{
 
 
 /*--Body --*/
+body{
+    background-color: #FAD983;
+}
 /*--Intro--*/
 #intro{
     display:flex;
@@ -69,23 +72,34 @@ nav{
     font-family: 'Lexend', sans-serif;
     height:500px;
     width:45%;
-    background-color: #c73f3f;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
     text-align: right;
 }
 
 #welcome-title{
     display:flex;
     justify-content: center;
-    text-align: right;
-    background-color: aquamarine;
+    text-align: center;
+    padding-right:20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#welcome-desc{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding-right:20px;
+    font-size: 30px;
+    font-weight: 600;
 }
 /*--Features area--*/
 #features {
     display: flex;
     font-family: 'Lexend', sans-serif;
-    background-color: #F38C75;
     height: 500px;
     flex-direction: column;
 }
@@ -147,25 +161,29 @@ button:hover{
     padding-right: 20px;
     text-align: right;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .feature-name{
     display: flex;
-    height: 200px;
-    background-color: black;
+    font-weight: bold;
+    font-size: 33px;
+    justify-content: center;
+    text-align: center;
+    padding-right: 168px;
 }
 
 .main-desc{
     display: flex;
     justify-content: right;
     align-content: center;
+    font-size: 23px;
 
 }
 
 
 .feature-img{
     display: flex;
-    background-color: brown;
     width:60%;
 
 }
