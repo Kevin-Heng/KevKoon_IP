@@ -223,21 +223,22 @@ button:hover{
 }
 
 
-/*--Footer socials-->*/
+/*--Footer-->*/
+/*--Socials--*/
 #socials{
     display: flex;
     height:200px;
-    background-color: #edf0f1;
+    background-color: 009444;
     justify-content: center;
-    align-content: center;
+    align-content:center;
     font-family: 'Lexend', sans-serif;
-    padding-top: 20px;
+    padding-top: 30px;
+    flex-direction: row;
 }
 
 #contact{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
     width:250px;
     align-items: center;
 }
@@ -245,7 +246,7 @@ button:hover{
 #contact-title, #socials-title{
     font-size: 25px;
     font-weight: 500; 
-    text-decoration: underline;
+    color:#edf0f1;
 }
 
 .contact-info{
@@ -259,7 +260,26 @@ button:hover{
     align-items: center;
 }
 
-.socials-info{
-    padding:10px;
+#socials-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+#facebook-icon{
+    height:35px;
+    width:35px;
+    padding:20px;
+}
+
+#instagram-icon{
+    height:37px;
+    width:36px;
+    padding:20px;
+}
+
+#x-icon{
+    height:35px;
+    width:35px;
+    padding:20px;
 }
 
