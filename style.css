@@ -84,7 +84,6 @@ body{
     display:flex;
     justify-content: center;
     text-align: center;
-    padding-right:20px;
     padding-bottom: 10px;
     font-size: 40px;
     font-weight: bold;
@@ -94,7 +93,6 @@ body{
     display:flex;
     justify-content: center;
     text-align: center;
-    padding-right:20px;
     font-size: 30px;
     font-weight: 600;
 }
@@ -108,7 +106,7 @@ body{
 #features {
     display: flex;
     font-family: 'Lexend', sans-serif;
-    height: 500px;
+    height: 800px;
     flex-direction: column;
     padding-top: 10%;
 }
@@ -197,9 +195,32 @@ button:hover{
 #feature-img{
     display: flex;
     height:500px;
+    padding-left:100px;
 }
 
+/*Advertise mobile app*/
+#mobile-app{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
 
+#app-text{
+    display: flex;
+    font-family: 'Lexend', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-right:30px;
+}
+
+#app-img{
+    display: flex;
+    text-align: center;
+    height: 300px;
+}
 
 
 
