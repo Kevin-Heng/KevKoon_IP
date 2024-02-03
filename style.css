@@ -60,7 +60,6 @@ nav{
 #intro{
     display:flex;
     flex-direction: row;
-    background-color: #000000;
     height:500px;
 }
 
@@ -71,8 +70,17 @@ nav{
     height:500px;
     width:45%;
     background-color: #c73f3f;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
 }
 
+#welcome-title{
+    display:flex;
+    justify-content: center;
+    text-align: right;
+    background-color: aquamarine;
+}
 /*--Features area--*/
 #features {
     display: flex;
