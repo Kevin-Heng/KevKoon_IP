@@ -216,20 +216,21 @@ button:hover{
     flex-direction: column;
     font-size: 25px;
     font-weight: 700;
-    padding-right:30px;
+    padding-right:0px;
     width: auto;
 }
 
 #app-img{
     display: flex;
     height: 500px;
-    width: 500px;
+    width: 50%;
     align-items: flex-start;
 }
 
 #app-img img{
     height:450px;
     width: 650px;
+    align-self: center;
 }
 
 
