@@ -53,10 +53,6 @@ function changeCollabFeature(){
     
 }
 
-function changeColour(){
-    var about = document.getElementById("about-us");
 
-    
-}
 
 
