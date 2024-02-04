@@ -52,3 +52,11 @@ function changeCollabFeature(){
     img.src = "jett.jpeg"
     
 }
+
+function changeColour(){
+    var about = document.getElementById("about-us");
+
+    
+}
+
+
