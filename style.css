@@ -69,7 +69,7 @@ nav{
 
 
 
-#account{
+#account-icon{
     position:absolute;
     height:65px;
     width:65px;
@@ -407,5 +407,19 @@ body{
     margin:0 auto;
 }
 
+/*-------------------------------------Account page----------------------------------------------------*/
+#account-page{
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    height:700px;
+}
 
-
+#account-page-icon{
+    position:absolute;
+    height:180px;
+    width:180px;
+    background-color: #edf0f1;
+    border-radius: 50%;
+    border: 3px solid #000000;
+}
