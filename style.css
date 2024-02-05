@@ -168,7 +168,7 @@ body{
     transition: all 0.3s ease 0s;
 }
 
-button{
+.features-items button{
     font-family: 'Lexend', sans-serif;
     font-size: 21px;
     padding:9px 30px;
@@ -180,7 +180,7 @@ button{
     color:white;
 }
 
-button:hover{
+.features-items > button:hover{
     background-color: rgba(156,156,156,0.8);
     border:1px solid rgba(255,255,255,0.8);
 }
@@ -236,7 +236,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     text-align: right;
-    background-color: #ffe9b3;
+    background-color: #fae2a4;
 }
 
 #app-text{
@@ -348,18 +348,22 @@ button:hover{
 /*-------------------------------------About us page---------------------------------------------------*/
 #about-info{
     display: flex;
-    justify-content: center;
+
     align-items: center;
     font-family: 'Lexend', sans-serif;
     flex-direction: column;
-    background-color: #009444;
+    background-color: rgba(237,240,241,0.2);
+    width:85%;
+    margin:30px auto 0;
+    border-radius: 20px;
+    height:500px;
 }
 
 #about-header{
     display: flex;
-    font-size: 35px;
+    font-size: 40px;
     height: 100px;
-    padding-top: 100px;
+    padding-top: 50px;
     font-weight: 500;
     text-decoration: underline;
 }
@@ -379,12 +383,30 @@ button:hover{
     width: 180px;
 }
 
+#history:hover, #FAQ:hover, #become-a-member:hover{
+    cursor: pointer;
+}
+
 #about-MONEE{
     display: flex;
     justify-content: center;
     padding: 10px;
     width: 180px;
     border-bottom: 2px solid #000000;
+    background-color: rgba(255,255,255,0.5);
+    cursor: pointer;
 }
+
+#about-content{
+    display: flex;
+    flex-direction: column;
+    height:160px;
+    margin-right: 224px;
+    width: 55%;
+    line-height: 1.5;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
 
 
