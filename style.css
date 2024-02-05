@@ -346,41 +346,50 @@ button:hover{
 }
 
 /*-------------------------------------About us page---------------------------------------------------*/
-#about-us-info{
-    font-family: 'Lexend', sans-serif;
+#about-info{
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-
+    font-family: 'Lexend', sans-serif;
+    flex-direction: column;
+    width: 60%;
 }
 
-#who-are-we-header{
+
+
+#about-MONEE-header{
     display: flex;
-    font-size: 50px;
-    height: 100px;
-    padding-top: 90px;
-    font-weight: 500;
-
-}
-
-#about-us-content{
-    width: 83%;
-}
-
-#history-header{
-    display: flex;
-    font-size: 50px;
+    font-size: 35px;
     height: 100px;
     padding-top: 100px;
     font-weight: 500;
+}
+
+#about-navbar{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    top:300px;
+    left:251px;
+    height: 50px;
+    justify-content: center;
+}
+
+.about-navbar-text{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 180px;
 
 }
 
-#history-content{
-    width: 83%;
+#about-MONEE{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 180px;
+    border-bottom: 2px solid #000000;
 }
 
-#history-fine-text{
-    font-size: 10px;
-}
+
