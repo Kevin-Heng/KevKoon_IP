@@ -81,7 +81,8 @@ function changeNavBar_hist(){
 
     // Create the main content line
     var mainText = document.createElement("div");
-    mainText.textContent = "MONEE was founded on 11 Jan 2024 when they were assigned to do the IP assignment. They spent 3 tireless weeks to complete what was required for the 5 modules. Having to self-learn new concepts to make their ideas come to life in the app and website.";
+    mainText.textContent = "MONEE was founded on 11 Jan 2024 by two students from Ngee Ann Poly, Kevin and Kai Koon. when they were assigned to do the IP assignment. As a two man team, they created MONEE as a way for users to be able to make better financial decisions while \
+    also being rewarded for doing so. They spent 3 tireless weeks to complete what was required for the 5 modules. Having to self-learn new concepts to make their ideas come to life in the app and website.";
 
     // Create the fine text line
     var fineText = document.createElement("div");
@@ -134,7 +135,7 @@ function changeNavBar_FAQ(){
     var about_content = document.getElementById("about-content");
 
     var about_info = document.getElementById('about-info');
-    about_info.style.height = '1000px'
+    about_info.style.height = '900px'
 
     history.style.backgroundColor = 'rgba(237,240,241,0)';
     history.style.borderBottom = 'none';
@@ -153,11 +154,10 @@ function changeNavBar_FAQ(){
 
     var lineBreak = document.createElement("br")
 
-    // Create the main content line
     var mainText = document.createElement("div");
     mainText.textContent = "Here are the answers to some of the common questions users have"
 
-    // Create the fine text line
+    //Qns 1
     var qns = document.createElement("div");
     qns.textContent = 'What is MONEE?';
     qns.style.fontSize = '18px';
@@ -170,17 +170,18 @@ function changeNavBar_FAQ(){
     ans.textContent = 'MONEE is a mobile/web app that allows users to track their finances and can get earn rewards for doing so. This includes, in-game trophy rewards from achievements and real money by exchanging points!'
     ans.style.fontSize = '16px';
 
-    // Append the text lines to the container
     textContainer.appendChild(mainText);
     textContainer.appendChild(lineBreak);
     textContainer.appendChild(qns);
     textContainer.appendChild(ans);
 
+    //Qns 2
     var qns = document.createElement("div");
     qns.textContent = 'How do I redeem my rewards?';
     qns.style.fontSize = '18px';
     qns.style.fontWeight = '500';
     qns.style.paddingBottom = '10px'
+    qns.style.paddingTop = '10px';
     qns.style.textDecoration = 'underline 2px'
 
     var ans = document.createElement("div");
@@ -190,8 +191,44 @@ function changeNavBar_FAQ(){
     textContainer.appendChild(lineBreak);
     textContainer.appendChild(qns);
     textContainer.appendChild(ans);
+    
+    //Qns 3
+    var qns = document.createElement("div");
+    qns.textContent = 'How is MONEE any different from other apps?';
+    qns.style.fontSize = '18px';
+    qns.style.fontWeight = '500';
+    qns.style.paddingBottom = '10px'
+    qns.style.paddingTop = '10px'
+    qns.style.textDecoration = 'underline 2px'
+
+    var ans = document.createElement("div");
+    ans.textContent = 'In other finance apps, you are not rewarded for completing your savings goals. However, in MONEE, you can earn rewards for your efforts when you reach your goals. This makes saving money more fun and enjoyable and can help you to save more money! :D'
+    ans.style.fontSize = '16px';
+    
+    textContainer.appendChild(lineBreak);   
+    textContainer.appendChild(qns);
+    textContainer.appendChild(ans);    
 
     about_content.innerHTML = "";
     about_content.appendChild(textContainer);
+
+    //Qns 4
+    var qns = document.createElement("div");
+    qns.textContent = 'How do I become a member of MONEE?';
+    qns.style.fontSize = '18px';
+    qns.style.fontWeight = '500';
+    qns.style.paddingBottom = '10px'
+    qns.style.paddingTop = '10px'
+    qns.style.textDecoration = 'underline 2px'
+
+    var ans = document.createElement("div");
+    ans.textContent = 'Download our mobile app and sign up there or you can use the web version to create and account too. Highly recommended to download the mobile app so that you can keep track of your finances on the go, anytime and anywhere. Once your account is created, you are now a member of MONEE. So... Welcome to MONEE!!!'
+    ans.style.fontSize = '16px';
     
+    textContainer.appendChild(lineBreak);   
+    textContainer.appendChild(qns);
+    textContainer.appendChild(ans);    
+
+    about_content.innerHTML = "";
+    about_content.appendChild(textContainer);
 }
