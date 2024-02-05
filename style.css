@@ -346,12 +346,41 @@ button:hover{
 }
 
 /*-------------------------------------About us page---------------------------------------------------*/
-#about-us-header{
+#about-us-info{
     font-family: 'Lexend', sans-serif;
     display: flex;
     justify-content: center;
-    background-color: #009444;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#who-are-we-header{
+    display: flex;
     font-size: 50px;
-    height: 300px;
-    padding-top: 50px;
+    height: 100px;
+    padding-top: 90px;
+    font-weight: 500;
+
+}
+
+#about-us-content{
+    width: 83%;
+}
+
+#history-header{
+    display: flex;
+    font-size: 50px;
+    height: 100px;
+    padding-top: 100px;
+    font-weight: 500;
+
+}
+
+#history-content{
+    width: 83%;
+}
+
+#history-fine-text{
+    font-size: 10px;
 }
