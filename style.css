@@ -1,11 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
 /*--Header Nav bar--*/
+#home{
+    color: #000000;
+}
+
+#home:hover{
+    color: #000000;
+    cursor: pointer;
+}
+
+#about-us{
+    color: #edf0f1;
+}
+
+#about-us:hover{
+    color: #000000;
+    cursor: pointer;
+
+}
+
+#services{
+    color: #edf0f1;
+}
+
+#services:hover{
+    color: #000000;
+    cursor: pointer;
+
+}
+
 li, a{
     font-family: 'Lexend', sans-serif;
     font-weight: 500;
     font-size: 25px;
-    color: #edf0f1;
     text-decoration: none;
 }
 
@@ -39,10 +67,7 @@ nav{
     transition: all 0.3s ease 0s;
 }
 
-.nav_links a:hover{
-    color: #000000;
-    cursor: pointer;
-}
+
 
 #account{
     position:absolute;
@@ -54,9 +79,7 @@ nav{
     right:50px;
 }
 
-#home{
-    color: #000000;
-}
+
 
 /*--Body --*/
 body{
@@ -211,7 +234,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     text-align: right;
-    background-color: rgb(215, 102, 102);
+    background-color: rgb(231, 111, 111);
 }
 
 #app-text{
