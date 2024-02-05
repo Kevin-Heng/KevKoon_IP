@@ -232,3 +232,30 @@ function changeNavBar_FAQ(){
     about_content.innerHTML = "";
     about_content.appendChild(textContainer);
 }
+
+function changeNavBar_member(){
+    var about_MONEE = document.getElementById("about-MONEE");
+    var history = document.getElementById("history");
+    var FAQ = document.getElementById("FAQ");
+    var member = document.getElementById("become-a-member");
+    var about_header = document.getElementById("about-header");
+    var about_content = document.getElementById("about-content");
+
+    var about_info = document.getElementById('about-info');
+    about_info.style.height = '520px'
+
+    history.style.backgroundColor = 'rgba(237,240,241,0)';
+    history.style.borderBottom = 'none';
+
+    FAQ.style.backgroundColor = 'rgba(237,240,241,0)';
+    FAQ.style.borderBottom = 'none';
+
+    about_MONEE.style.backgroundColor = 'rgba(237,240,241,0)';
+    about_MONEE.style.borderBottom = 'none';
+
+    member.style.backgroundColor = 'rgba(255,255,255,0.5)';
+    member.style.borderBottom = '2px solid #000000'
+    about_header.innerHTML = "<div>Becoming a member</div>"
+
+    about_content.innerHTML = "Create an account on this website or download the mobile app to create an account. "
+}
