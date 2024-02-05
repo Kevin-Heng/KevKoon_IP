@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
-/*--Header Nav bar--*/
+/*--Header Nav bar for ALL pages--*/
 #home{
     color: #000000;
 }
@@ -81,7 +81,7 @@ nav{
 
 
 
-
+/*------------------------------------------Home page--------------------------------------------------*/
 
 /*--Body --*/
 body{
@@ -138,7 +138,7 @@ body{
     height: 800px;
     flex-direction: column;
     padding-top: 20px;
-    background-color: lightblue;
+    background-color: #ffe194;
 }
 
 #features-text{
@@ -236,7 +236,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     text-align: right;
-    background-color: rgb(231, 111, 111);
+    background-color: #ffe9b3;
 }
 
 #app-text{
@@ -263,7 +263,7 @@ button:hover{
 }
 
 
-/*--Footer-->*/
+/*--Footer--*/
 /*--Socials--*/
 #company-info{
     display: flex;
@@ -345,3 +345,4 @@ button:hover{
     padding:20px;
 }
 
+/*-------------------------------------About us page---------------------------------------------------*/
