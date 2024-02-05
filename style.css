@@ -346,3 +346,12 @@ button:hover{
 }
 
 /*-------------------------------------About us page---------------------------------------------------*/
+#about-us-header{
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #009444;
+    font-size: 50px;
+    height: 300px;
+    padding-top: 50px;
+}
