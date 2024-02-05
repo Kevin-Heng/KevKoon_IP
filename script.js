@@ -1,3 +1,4 @@
+/*------------------------------------------Top Nav Bar------------------------------------------------*/
 function changeTrackFeature(){
     var tracK_button = document.getElementById("track-button");
     var plan_button = document.getElementById("plan-button");
@@ -13,8 +14,6 @@ function changeTrackFeature(){
     section.innerHTML = "<div>Track your spendings, savings and financial goals</div>";
 
     img.src = "blank.jpg"
-
-
 }
 
 function changePlanFeature(){
@@ -52,7 +51,7 @@ function changeCollabFeature(){
     img.src = "jett.jpeg"
     
 }
-
+/*------------------------------------Nav Bar About us page--------------------------------------------*/
 function changeNavBar_hist(){
     var about_MONEE = document.getElementById("about-MONEE");
     var history = document.getElementById("history");
@@ -60,6 +59,9 @@ function changeNavBar_hist(){
     var member = document.getElementById("become-a-member");
     var about_header = document.getElementById("about-header");
     var about_content = document.getElementById("about-content");
+
+    var about_info = document.getElementById('about-info');
+    about_info.style.height = '520px'
 
     about_MONEE.style.backgroundColor = 'rgba(237,240,241,0)';
     about_MONEE.style.borderBottom = 'none';
@@ -95,6 +97,7 @@ function changeNavBar_hist(){
     
 }
 
+
 function changeNavBar_MONEE(){
     var about_MONEE = document.getElementById("about-MONEE");
     var history = document.getElementById("history");
@@ -102,6 +105,9 @@ function changeNavBar_MONEE(){
     var member = document.getElementById("become-a-member");
     var about_header = document.getElementById("about-header");
     var about_content = document.getElementById("about-content");
+
+    var about_info = document.getElementById('about-info');
+    about_info.style.height = '520px'
 
     history.style.backgroundColor = 'rgba(237,240,241,0)';
     history.style.borderBottom = 'none';
@@ -117,4 +123,75 @@ function changeNavBar_MONEE(){
     about_header.innerHTML = "<div>About MONEE</div>"
 
     about_content.innerHTML = "MONEE was founded by two students from Ngee Ann Poly, Kevin and Kai Koon. As a two man team, they created MONEE as a way for users to be able to make better financial decisions while also being rewarded for doing so. The main goal that we have is for users to be more mindful of their expenses so that they can save more money.    "
+}
+
+function changeNavBar_FAQ(){
+    var about_MONEE = document.getElementById("about-MONEE");
+    var history = document.getElementById("history");
+    var FAQ = document.getElementById("FAQ");
+    var member = document.getElementById("become-a-member");
+    var about_header = document.getElementById("about-header");
+    var about_content = document.getElementById("about-content");
+
+    var about_info = document.getElementById('about-info');
+    about_info.style.height = '1000px'
+
+    history.style.backgroundColor = 'rgba(237,240,241,0)';
+    history.style.borderBottom = 'none';
+
+    about_MONEE.style.backgroundColor = 'rgba(237,240,241,0)';
+    about_MONEE.style.borderBottom = 'none';
+
+    member.style.backgroundColor = 'rgba(237,240,241,0)';
+    member.style.borderBottom = 'none';
+
+    FAQ.style.backgroundColor = 'rgba(255,255,255,0.5)';
+    FAQ.style.borderBottom = '2px solid #000000'
+    about_header.innerHTML = "<div>FAQ</div>"
+
+    var textContainer = document.createElement("div");
+
+    var lineBreak = document.createElement("br")
+
+    // Create the main content line
+    var mainText = document.createElement("div");
+    mainText.textContent = "Here are the answers to some of the common questions users have"
+
+    // Create the fine text line
+    var qns = document.createElement("div");
+    qns.textContent = 'What is MONEE?';
+    qns.style.fontSize = '18px';
+    qns.style.fontWeight = '500';
+    qns.style.paddingBottom = '10px';
+    qns.style.textDecoration = 'underline 2px';
+    qns.style.paddingTop = '10px';
+
+    var ans = document.createElement("div");
+    ans.textContent = 'MONEE is a mobile/web app that allows users to track their finances and can get earn rewards for doing so. This includes, in-game trophy rewards from achievements and real money by exchanging points!'
+    ans.style.fontSize = '16px';
+
+    // Append the text lines to the container
+    textContainer.appendChild(mainText);
+    textContainer.appendChild(lineBreak);
+    textContainer.appendChild(qns);
+    textContainer.appendChild(ans);
+
+    var qns = document.createElement("div");
+    qns.textContent = 'How do I redeem my rewards?';
+    qns.style.fontSize = '18px';
+    qns.style.fontWeight = '500';
+    qns.style.paddingBottom = '10px'
+    qns.style.textDecoration = 'underline 2px'
+
+    var ans = document.createElement("div");
+    ans.textContent = 'Rewards can be claimed in the rewards shop when you have enough points to exchange for money that you can earn! This can be done on our mobile app or on our website. Be sure to complete your savings goals and achivements to earn more points and earn more money!'
+    ans.style.fontSize = '16px';
+
+    textContainer.appendChild(lineBreak);
+    textContainer.appendChild(qns);
+    textContainer.appendChild(ans);
+
+    about_content.innerHTML = "";
+    about_content.appendChild(textContainer);
+    
 }
