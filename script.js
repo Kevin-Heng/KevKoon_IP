@@ -123,7 +123,7 @@ function changeNavBar_MONEE(){
     about_MONEE.style.borderBottom = '2px solid #000000'
     about_header.innerHTML = "<div>About MONEE</div>"
 
-    about_content.innerHTML = "MONEE was founded by two students from Ngee Ann Poly, Kevin and Kai Koon. As a two man team, they created MONEE as a way for users to be able to make better financial decisions while also being rewarded for doing so. The main goal that we have is for users to be more mindful of their expenses so that they can save more money.    "
+    about_content.innerHTML = "MONEE is a financial tracker that helps you to plan out your finances just by following the steps on our mobile app or website. MONEE was created with the intent of allowing users to be more mindful of their expenses and save more to combat inflation. We believe that everyone can make smart financial decisions once they learn and make it a habit to do so."
 }
 
 function changeNavBar_FAQ(){
@@ -135,7 +135,7 @@ function changeNavBar_FAQ(){
     var about_content = document.getElementById("about-content");
 
     var about_info = document.getElementById('about-info');
-    about_info.style.height = '900px'
+    about_info.style.height = '1000px'
 
     history.style.backgroundColor = 'rgba(237,240,241,0)';
     history.style.borderBottom = 'none';
@@ -155,7 +155,7 @@ function changeNavBar_FAQ(){
     var lineBreak = document.createElement("br")
 
     var mainText = document.createElement("div");
-    mainText.textContent = "Here are the answers to some of the common questions users have"
+    mainText.textContent = "Here are the answers to some of the common questions users have asked"
 
     //Qns 1
     var qns = document.createElement("div");
@@ -184,6 +184,8 @@ function changeNavBar_FAQ(){
     qns.style.paddingTop = '10px';
     qns.style.textDecoration = 'underline 2px'
 
+    var lineBreak = document.createElement("br")
+    
     var ans = document.createElement("div");
     ans.textContent = 'Rewards can be claimed in the rewards shop when you have enough points to exchange for money that you can earn! This can be done on our mobile app or on our website. Be sure to complete your savings goals and achivements to earn more points and earn more money!'
     ans.style.fontSize = '16px';
@@ -200,6 +202,8 @@ function changeNavBar_FAQ(){
     qns.style.paddingBottom = '10px'
     qns.style.paddingTop = '10px'
     qns.style.textDecoration = 'underline 2px'
+
+    var lineBreak = document.createElement("br")
 
     var ans = document.createElement("div");
     ans.textContent = 'In other finance apps, you are not rewarded for completing your savings goals. However, in MONEE, you can earn rewards for your efforts when you reach your goals. This makes saving money more fun and enjoyable and can help you to save more money! :D'
@@ -220,6 +224,8 @@ function changeNavBar_FAQ(){
     qns.style.paddingBottom = '10px'
     qns.style.paddingTop = '10px'
     qns.style.textDecoration = 'underline 2px'
+
+    var lineBreak = document.createElement("br")
 
     var ans = document.createElement("div");
     ans.textContent = 'Download our mobile app and sign up there or you can use the web version to create and account too. Highly recommended to download the mobile app so that you can keep track of your finances on the go, anytime and anywhere. Once your account is created, you are now a member of MONEE. So... Welcome to MONEE!!!'
@@ -257,5 +263,20 @@ function changeNavBar_member(){
     member.style.borderBottom = '2px solid #000000'
     about_header.innerHTML = "<div>Becoming a member</div>"
 
-    about_content.innerHTML = "Create an account on this website or download the mobile app to create an account. "
+    var textContainer = document.createElement("div");
+
+    var lineBreak = document.createElement("br")
+    var mainText = document.createElement("div")
+    var subText = document.createElement("div")
+
+    mainText.textContent = "Create an account on this website or download the mobile app to create an account. It's that simple. So what are you waiing for? Be a member of MONEE today!"
+    subText.textContent = "For any inquiries, you may contact our hotline at +65 6555 2856 or email us at monee@gmail.com.sg. We are open from Monday to Friday, 9am - 7pm."
+
+    textContainer.appendChild(mainText);
+    textContainer.appendChild(lineBreak);
+    textContainer.appendChild(subText);
+
+    about_content.innerHTML = "";
+    about_content.appendChild(textContainer);
 }
+

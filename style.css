@@ -348,7 +348,6 @@ body{
 /*-------------------------------------About us page---------------------------------------------------*/
 #about-info{
     display: flex;
-
     align-items: center;
     font-family: 'Lexend', sans-serif;
     flex-direction: column;
@@ -401,11 +400,11 @@ body{
     display: flex;
     flex-direction: column;
     height:160px;
-    margin-right: 224px;
-    width: 55%;
+    width: 76%;
     line-height: 1.5;
     padding-top: 20px;
     font-size: 17px;
+    margin:0 auto;
 }
 
 
