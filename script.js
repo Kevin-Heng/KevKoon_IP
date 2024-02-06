@@ -135,7 +135,7 @@ function changeNavBar_FAQ(){
     var about_content = document.getElementById("about-content");
 
     var about_info = document.getElementById('about-info');
-    about_info.style.height = '1000px'
+    about_info.style.height = '900px'
 
     history.style.backgroundColor = 'rgba(237,240,241,0)';
     history.style.borderBottom = 'none';
