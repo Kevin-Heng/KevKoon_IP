@@ -20,11 +20,11 @@
 
 }
 
-#services{
+#shop{
     color: #edf0f1;
 }
 
-#services:hover{
+#shop:hover{
     color: #000000;
     cursor: pointer;
 
@@ -426,26 +426,48 @@ body{
     border: 3px solid #000000;
 }
 
+#welcome-user{
+    display: flex;
+    align-self: center;
+    margin-top:20px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
 #account-content{
     display: flex;
     flex-direction: row;
     height: 500px;
-    background-color: #009444;
-    padding-top: 50px;
-
+    margin-top: 20px;
+    background-color: #fae2a4;
 }
 
 #account-navBar{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    height: 200px;
-    width:300px;
+    height: 300px;
     font-size: 18px;
-    background-color: aqua;
 }
 
-#profile, #plan, #track{
-    height:80px;
+#plan, #track, #friends{
+    display: flex;
+    align-items: center;
+    height:50px;
+    width: 200px;
+    padding-left: 60px;
+}
+
+#profile:hover, #plan:hover, #track:hover, #friends:hover{
+    cursor: pointer;
+}
+#profile{
+    display: flex;
+    align-items: center;
+    height:50px;
+    width: 200px;
+    border-radius: 0 30px 30px 0;
+    background-color:#F38C75;
+    padding-left: 60px;
+
 }
