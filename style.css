@@ -412,13 +412,40 @@ body{
     display: flex;
     padding-top:50px;
     height:700px;
+    flex-direction: column;
+    font-family: 'Lexend', sans-serif;
 }
 
 #account-page-icon{
-    position:absolute;
-    height:150px;
-    width:150px;
+    display: flex;
+    align-self: center;
+    height:140px;
+    width:140px;
     background-color: #edf0f1;
     border-radius: 50%;
     border: 3px solid #000000;
+}
+
+#account-content{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    background-color: #009444;
+    padding-top: 50px;
+
+}
+
+#account-navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width:300px;
+    font-size: 18px;
+    background-color: aqua;
+}
+
+#profile, #plan, #track{
+    height:80px;
 }

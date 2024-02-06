@@ -81,7 +81,7 @@ function changeNavBar_hist(){
 
     // Create the main content line
     var mainText = document.createElement("div");
-    mainText.textContent = "MONEE was founded on 11 Jan 2024 by two students from Ngee Ann Poly, Kevin and Kai Koon. when they were assigned to do the IP assignment. As a two man team, they created MONEE as a way for users to be able to make better financial decisions while \
+    mainText.textContent = "MONEE was founded on 11 Jan 2024 by two students from Ngee Ann Poly, Kevin and Kai Koon when they were assigned to do the IP assignment. As a two man team, they created MONEE as a way for users to be able to make better financial decisions while \
     also being rewarded for doing so. They spent 3 tireless weeks to complete what was required for the 5 modules. Having to self-learn new concepts to make their ideas come to life in the app and website.";
 
     // Create the fine text line
