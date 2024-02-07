@@ -543,14 +543,13 @@ body{
     width:60px;
     background-color: #edf0f1;
     border-radius: 50%;
-    border: 3px solid #000000;
+    border: 2px solid #000000;
     margin-bottom: 10px;
 }
 
 #account-achievements{
     display: flex;
     flex-direction: column;
-    height:1000px;
     width: 80%;
     border-radius: 8px;
     border: 2px solid #000000;
@@ -577,7 +576,7 @@ body{
     margin-bottom: 30px;
 }
 
-#achievement-icon{
+#bff-achievement-icon, #member-achievement-icon, #savings-achievement-icon,#goal-achievement-icon,#master-achievement-icon{
     display: flex;
     height:100px;
     width:120px;
@@ -588,9 +587,31 @@ body{
     background-color: rgba(254, 238, 195, 0.6);
 }
 
-#achievement-icon img{
+#bff-achievement-icon img{
     height:80px;
     width:80px;
+}
+
+#member-achievement-icon img{
+    height:50px;
+    width:100px;
+}
+
+
+#savings-achievement-icon img{
+    height:70px;
+    width:90px;
+}
+
+
+#goal-achievement-icon img{
+    height:90px;
+    width:90px;
+}
+
+#master-achievement-icon img{
+    height:80px;
+    width:90px;
 }
 
 #achievement-details{
