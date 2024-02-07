@@ -410,18 +410,17 @@ body{
 /*-------------------------------------Account page----------------------------------------------------*/
 #account-page{
     display: flex;
-    margin-top:50px;
+    margin-top:35px;
     height:700px;
     flex-direction: column;
     font-family: 'Lexend', sans-serif;
-    align-self: center;
     justify-content: center;
 }
 
 #top-part{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 #user{
@@ -429,7 +428,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 700px;
 }
+
 #account-page-icon{
     display: flex;
     align-self: center;
@@ -447,7 +448,7 @@ body{
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 3px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 #account-content{
@@ -455,14 +456,15 @@ body{
     flex-direction: row;
     height: 500px;
     background-color: #fae2a4;
+    justify-content: center;
 }
 
 #account-navBar{
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 250px;
     font-size: 18px;
-    margin-top:30px;
+    margin-bottom: 20px;
 }
 
 #plan, #track, #friends{
@@ -483,15 +485,15 @@ body{
     height:50px;
     width: 200px;
     border-radius: 0 30px 30px 0;
-    background-color:#F38C75;
+    background-color:#ffc32c;
     padding-left: 60px;
 
 }
 
 #content{
     display: flex;
-    align-self: center;
     height:500px;
     background-color: #009444;
-    width:50%;
+    width:80%;
+    justify-content: center;
 }
