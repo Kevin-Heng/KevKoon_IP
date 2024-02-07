@@ -455,7 +455,6 @@ body{
     display: flex;
     flex-direction: row;
     height: 500px;
-    background-color: #fae2a4;
     justify-content: center;
 }
 
@@ -493,7 +492,53 @@ body{
 #content{
     display: flex;
     height:500px;
-    background-color: #009444;
-    width:80%;
+    width:65%;
     justify-content: center;
+}
+
+#account-profile-info{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    width: 80%;
+    border-radius: 8px;
+    border: 2px solid rgba(126, 126, 126, 0.2);
+    padding-left: 40px;
+    padding-top:40px;
+}
+
+#info-header{
+    font-size: 25px;
+    padding-bottom:20px;
+}
+
+#info-details{
+    display: flex;
+    flex-direction: row;
+    height:80px;
+    align-items: center;
+    border-bottom: 2px solid rgba(126, 126, 126, 0.2);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#category{
+    display: flex;
+    width:180px;
+    justify-content: flex-start;
+}
+
+#details{
+    display: flex;
+    width:350px;
+}
+#pfp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60px;
+    width:60px;
+    background-color: #edf0f1;
+    border-radius: 50%;
+    border: 3px solid #000000;
 }
