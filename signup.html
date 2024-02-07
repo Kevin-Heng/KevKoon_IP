@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>IP Assignment</title>
+        <link rel="stylesheet"href="style.css"type='text/css'/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/81e796867f.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    </head>
+    <body>
+      <div class="container">
+        <div class="form-box">
+          <h1 id="title">MONEE Sign-up</h1>
+          <form>
+            <div class="form-group">
+              <div class="form-field" id="userField">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" class="form-control" id="InputUser" placeholder="Username">
+              </div>
+              <div class="form-field" id="phoneNumber">
+                <i class="fa-solid fa-phone"></i>
+                <input type="number" class="form-control" id="InputNumber" placeholder="Phone Number">
+              </div>
+              <div class="form-field" id="emailField">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-field" id="passwordField">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" class="form-control" id="InputPassword" placeholder="Password">
+              </div>
+              <div class="form-field" id="incomeField">
+                <i class="fa-solid fa-money-bill"></i>
+                <input type="number" class="form-control" id="InputIncome" aria-describedby="incomeHelp" placeholder="Income">
+              </div>
+              <p>Lost Password? <a href="#">Click here!</a></p> 
+            </div>
+            <div class="submit-btn">
+              <button type="button" id="submitBtn" onclick="lottieanimation()">Submit</button>
+              <lottie-interactive path = "animations/lottie.json" interaction="Click"></lottie-interactive>
+            </div>
+            <p></p>
+            <div class="btn-field">
+              <button type="button" id="signupBtn">Sign up</button>
+              <button type="button" id="signinBtn" class="disable">Sign in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <script>
+        let signinBtn = document.getElementById("signinBtn");
+        let signupBtn = document.getElementById("signupBtn");
+        let userField = document.getElementById("userField");
+        let phoneNumber = document.getElementById('phoneNumber');
+        let title = document.getElementById("title");
+
+        signinBtn.onclick = function(){
+          userField.style.maxHeight = '0';
+          phoneNumber.style.maxHeight = '0';
+          title.innerHTML = 'Sign In';
+          signupBtn.classList.add('disable');
+          signinBtn.classList.remove('disable');
+        }
+        signupBtn.onclick = function(){
+          userField.style.maxHeight = '1';
+          phoneNumber.style.maxHeight = '1';
+          title.innerHTML = 'MONEE Sign-up';
+          signupBtn.classList.remove('disable');
+          signinBtn.classList.add('disable');
+        }
+      </script>
+      <script src="script.js"></script>
+    </body>
+</html>
