@@ -550,7 +550,7 @@ body{
 #account-achievements{
     display: flex;
     flex-direction: column;
-    height:400px;
+    height:1000px;
     width: 80%;
     border-radius: 8px;
     border: 2px solid #000000;
@@ -561,10 +561,11 @@ body{
 }
 
 #achievement-status{
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 15px;
 }
-#completed-achievement{
+
+#inProgress-achievement{
     display: flex;
     flex-direction: row;
     height:130px;
@@ -572,16 +573,37 @@ body{
     align-items: center;
     border: 2px solid #000000;
     border-radius: 20px;
-    background-color: #00e068;
+    background-color: #fae2a4;
+    margin-bottom: 30px;
 }
 
 #achievement-icon{
     display: flex;
-    height:80px;
+    height:100px;
     width:120px;
     justify-content: center;
     align-items: center;
     border: 2px solid #000000;
-    margin-left:20px;
-    background-color: white;
+    margin-left:30px;
+    background-color: rgba(254, 238, 195, 0.6);
+}
+
+#achievement-icon img{
+    height:80px;
+    width:80px;
+}
+
+#achievement-details{
+    display: flex;
+    flex-direction: column;
+    height:100px;
+    width:250px;
+    margin-left: 60px;
+    padding-left: 20px;
+    font-size: 23px;
+}
+
+#achievement-desc{
+    font-size:18px;
+    padding-top:15px;
 }
