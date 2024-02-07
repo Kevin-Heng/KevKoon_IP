@@ -491,9 +491,10 @@ body{
 
 #content{
     display: flex;
-    height:500px;
-    width:65%;
-    justify-content: center;
+    height:1200px;
+    width:80%;
+    flex-direction: column;
+    align-items: center;
 }
 
 #account-profile-info{
@@ -505,6 +506,8 @@ body{
     border: 2px solid rgba(126, 126, 126, 0.2);
     padding-left: 40px;
     padding-top:40px;
+    margin-bottom: 40px;
+    margin-top:20px;
 }
 
 #info-header{
@@ -524,13 +527,13 @@ body{
 
 #category{
     display: flex;
-    width:180px;
+    width:280px;
     justify-content: flex-start;
 }
 
 #details{
     display: flex;
-    width:350px;
+    width:380px;
 }
 #pfp{
     display: flex;
@@ -541,4 +544,18 @@ body{
     background-color: #edf0f1;
     border-radius: 50%;
     border: 3px solid #000000;
+    margin-bottom: 10px;
+}
+
+#account-achievements{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    width: 80%;
+    border-radius: 8px;
+    border: 2px solid rgba(126, 126, 126, 0.2);
+    padding-left: 40px;
+    padding-top:40px;
+    margin-bottom: 40px;
+    margin-top:20px;
 }
