@@ -462,11 +462,14 @@ body{
     display: flex;
     flex-direction: column;
     height: 250px;
-    font-size: 18px;
     margin-bottom: 20px;
 }
 
-#plan, #track, #friends{
+#account-navBar a{
+    font-size: 18px;
+    color:#000000;
+}
+#plan, #friends{
     display: flex;
     align-items: center;
     height:50px;
@@ -474,7 +477,7 @@ body{
     padding-left: 60px;
 }
 
-#profile:hover, #plan:hover, #track:hover, #friends:hover{
+#profile:hover, #plan:hover, #friends:hover{
     cursor: pointer;
 }
 
