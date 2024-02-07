@@ -478,6 +478,7 @@ body{
     cursor: pointer;
 }
 
+/*-------------------------------------User profile---------------------------------------------------*/
 #profile{
     display: flex;
     align-items: center;
@@ -547,6 +548,7 @@ body{
     margin-bottom: 10px;
 }
 
+/*------------------------------------Achievements-----------------------------------------------------*/
 #account-achievements{
     display: flex;
     flex-direction: column;
@@ -559,12 +561,7 @@ body{
     margin-top:20px;
 }
 
-#achievement-status{
-    font-size: 21px;
-    margin-bottom: 15px;
-}
-
-#inProgress-achievement{
+#achievement{
     display: flex;
     flex-direction: row;
     height:130px;
