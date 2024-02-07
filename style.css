@@ -410,15 +410,30 @@ body{
 /*-------------------------------------Account page----------------------------------------------------*/
 #account-page{
     display: flex;
-    padding-top:50px;
+    margin-top:50px;
     height:700px;
     flex-direction: column;
     font-family: 'Lexend', sans-serif;
+    align-self: center;
+    justify-content: center;
 }
 
+#top-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #account-page-icon{
     display: flex;
     align-self: center;
+    justify-content: center;
     height:140px;
     width:140px;
     background-color: #edf0f1;
@@ -429,17 +444,16 @@ body{
 #welcome-user{
     display: flex;
     align-self: center;
-    margin-top:20px;
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 3px;
+    margin-top: 20px;
 }
 
 #account-content{
     display: flex;
     flex-direction: row;
     height: 500px;
-    margin-top: 20px;
     background-color: #fae2a4;
 }
 
@@ -448,6 +462,7 @@ body{
     flex-direction: column;
     height: 300px;
     font-size: 18px;
+    margin-top:30px;
 }
 
 #plan, #track, #friends{
@@ -461,6 +476,7 @@ body{
 #profile:hover, #plan:hover, #track:hover, #friends:hover{
     cursor: pointer;
 }
+
 #profile{
     display: flex;
     align-items: center;
@@ -470,4 +486,12 @@ body{
     background-color:#F38C75;
     padding-left: 60px;
 
+}
+
+#content{
+    display: flex;
+    align-self: center;
+    height:500px;
+    background-color: #009444;
+    width:50%;
 }
