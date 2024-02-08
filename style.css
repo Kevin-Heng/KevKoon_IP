@@ -493,13 +493,22 @@ body{
 
 }
 
-#content-account{
+#content-for-account{
     display: flex;
     height:2350px;
     width:80%;
     flex-direction: column;
     align-items: center;
 }
+
+#content-for-plan{
+    display: flex;
+    height:850px;
+    width:80%;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 #account-profile-info{
     display: flex;
@@ -730,6 +739,15 @@ canvas{
 }
 
 /*------------------------------------------Friends page-----------------------------------------------*/
+#content-for-friends{
+    display: flex;
+    height:800px;
+    width:80%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffe194;
+}
+
 #your-friends{
     display: flex;
     width:900px;
@@ -738,17 +756,69 @@ canvas{
     flex-direction: column;
 }
 
+#add-friend-icon{
+    height:40px;
+    width:40px
+}
+
+#top-part-friend{
+    display: flex;
+    flex-direction: row;
+    width:900px;
+    margin-top: 30px;
+}
+
+#all-friends{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #friends-details{
     display: flex;
     flex-direction: row;
     width: 900px;
-    height:600px;
-    background-color: #ffe194;
-    margin-top: 20px;
+    height:120px;
+    justify-content: center;
 }
 
 .friend{
     display: flex;
-    width:900px;
-    height:200px;
+    width:800px;
+    height:80px;
+    border: 2px solid #000000;
+    margin-top:30px;
+    align-items: center;
+}
+
+.friend img{
+    height:65px;
+    width:65px;
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 50px;
+}
+
+#friend-icon{
+    border: 2px solid #000000;
+}
+
+#friend-name{
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+#friend-duration{
+    font-size: 16px;
+    padding-left:300px;
+}
+
+#group-goal{
+    display: flex;
+    margin-top: 50px;
+    width:975px;
+    background-color: #009444;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 121px;
 }
