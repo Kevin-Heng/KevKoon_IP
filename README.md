@@ -41,6 +41,7 @@ ChatGPT: https://chat.openai.com/ for some code which we were unsure of how to d
 Chart.js: https://www.chartjs.org/ for the graph in the plan and track.html file.
 LottieFiles: https://lottiefiles.com/ for the loading animation in lottie.html before going to the home page.
 RestDB: https://restdb.io/ for the API in the index.html page and the account.html page to look at the user's account information.
+Github: https://github.com/Kevin-Heng/KevKoon_IP.git
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 

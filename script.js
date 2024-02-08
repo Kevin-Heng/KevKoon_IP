@@ -288,83 +288,72 @@ function changeNavBar_member(){
     about_content.appendChild(textContainer);
 }
 
-const APIKey = '65c0ff3d73f36e84d400b571';
-const apiUrl = `https://kevkoon-3a02.restdb.io/rest/contact`;
+document.getElementById("submitBtn").addEventListener("click", function(){
+  const APIKey = '65c0ff3d73f36e84d400b571';
+  const apiUrl = `https://kevkoon-3a02.restdb.io/rest/contact`;
+  
+  let userField = document.getElementById("InputUser").value;
+  let emailField = document.getElementById("InputEmail").value;
+  let passwordField = document.getElementById("InputPassword").value;
+  let phoneNumber = document.getElementById("InputNumber").value;
+  let incomeField = document.getElementById("InputIncome").value;
 
+  let jsondata = {
+    "username" : userField,
+    "email" : emailField,
+    "password" : passwordField,
+    "phonenumber" : phoneNumber,
+    "income" : incomeField,
+  }
 
+  let settings = {
+    method: "POST", //[cher] we will use post to send info
+    headers: {
+      "Content-Type": "application/json",
+      "x-apikey": APIKey,
+      "Cache-Control": "no-cache"
+    },
+    body: JSON.stringify(jsondata),
+  };
+  console.log(jsondata);
+  let settings2 = {
+    method: 'GET',
+    headers: {
+      "Content-Type": "application/json",
+      "x-apikey": APIKey,
+      "Cache-Control": "no-cache"
+    },
+  }
+  var settings3 = {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      "x-apikey": APIKey,
+      "Cache-Control": "no-cache"
+    },
+    body: JSON.stringify(jsondata)
+  }
 
-document.addEventListener("DOMContentLoaded", async function() {
-  const response2 = await fetch(apiUrl, {
+  const response = fetch(apiUrl, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-apikey": APIKey
+    },
+    body: JSON.stringify(jsondata)
+  })
+  console.log(response.jsondata)
+
+  const response2 = fetch(apiUrl, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
       "x-apikey": APIKey
     },
   })
-  
-  const data = await response2.json()
-  console.log(data)
-  console.log(data.length)
-
-  document.getElementById('contactname').innerHTML = data[data.length-1].username
-  document.getElementById('contactemail').innerHTML = data[data.length-1].email
-  document.getElementById('contactpassword').innerHTML = data[data.length-1].password
-  document.getElementById('contactnumber').innerHTML = data[data.length-1].phonenumber
-  document.getElementById('contactincome').innerHTML = data[data.length-1].income
+  console.log(response2.jsondata)
 })
 
-document.getElementById("submitBtn").addEventListener("click", async function(){
-
-   let userField = document.getElementById("InputUser").value;
-   let emailField = document.getElementById("InputEmail").value;
-   let passwordField = document.getElementById("InputPassword").value;
-   let phoneNumber = document.getElementById("InputNumber").value;
-   let incomeField = document.getElementById("InputIncome").value;
-
-   let jsondata = {
-     "username" : userField,
-     "email" : emailField,
-     "password" : passwordField,
-     "phonenumber" : phoneNumber,
-     "income" : incomeField,
-   }
-
-   let settings = {
-     method: "POST", //[cher] we will use post to send info
-     headers: {
-       "Content-Type": "application/json",
-       "x-apikey": APIKey,
-       "Cache-Control": "no-cache"
-     },
-     body: JSON.stringify(jsondata),
-   };
+function lottieanimation(){
   
-   console.log(jsondata);
-   let settings2 = {
-     method: 'GET',
-     headers: {
-       "Content-Type": "application/json",
-       "x-apikey": APIKey,
-       "Cache-Control": "no-cache"
-     },
-   }
-   var settings3 = {
-     method: "PUT",
-     headers: {
-       "Content-Type": "application/json",
-       "x-apikey": APIKey,
-       "Cache-Control": "no-cache"
-     },
-     body: JSON.stringify(jsondata)
-   }
-
-   const response = fetch(apiUrl, {
-     method: "POST",
-     headers: {
-       "Content-Type": "application/json",
-       "x-apikey": APIKey
-     },
-     body: JSON.stringify(jsondata)
-   })
-   console.log(response.jsondata)
- })
+}
