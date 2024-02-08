@@ -95,6 +95,8 @@ body{
     flex-direction: row;
     height:500px;
     padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -102,11 +104,11 @@ body{
     display:flex;
     font-family: 'Lexend', sans-serif;
     height:500px;
-    width:42%;
+    width:50%;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    text-align: right;
+    align-items: center;
+
 }
 
 #welcome-title{
@@ -114,7 +116,7 @@ body{
     justify-content: center;
     text-align: center;
     padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -122,15 +124,12 @@ body{
     display:flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     font-size: 30px;
     font-weight: 600;
+    width:800px;
 }
 
-#welcome-img{
-    display: flex;
-    padding-left: 100px;
-    padding-top:80px;
-}
 /*--Features area--*/
 #features {
     display: flex;
@@ -224,8 +223,12 @@ body{
 
 #feature-img{
     display: flex;
-    height:500px;
-    padding-left:100px;
+    height:240px;
+    width:600px;
+    padding-left:80px;
+    padding-top:120px;
+    justify-content: center;
+    align-items: center;
 }
 
 /*--Advertise mobile app--*/

@@ -13,7 +13,10 @@ function changeTrackFeature(){
     name.innerHTML = "<div>Track</div>";
     section.innerHTML = "<div>Track your spendings, savings and financial goals</div>";
 
-    img.src = "blank.jpg"
+    img.src = "track feature.png"
+    img.style.height = '380px'
+    img.style.width = '620px'
+    img.style.paddingTop = '60px'
 }
 
 function changePlanFeature(){
@@ -30,7 +33,11 @@ function changePlanFeature(){
     name.innerHTML = "<div>Plan</div>";
     section.innerHTML = "<div>Get down to the nitty gritty of planning your finance</div>";
 
-    img.src = "pikachu.png"
+    img.src = "plan feature.png"
+    img.style.height = '240px'
+    img.style.width = '600px'
+    img.style.paddingTop = '120px'
+    img.style.paddingLeft = '80px'
     
 }
 
@@ -48,7 +55,9 @@ function changeCollabFeature(){
     name.innerHTML = "<div>Collaborate</div>";
     section.innerHTML = "<div>Add friends and collaborate with them in finanicial goals</div>";
 
-    img.src = "jett.jpeg"
+    img.src = "collab feature.png"
+    img.style.height = '400px'
+    img.style.width = '600px'
     
 }
 /*------------------------------------Nav Bar About us page--------------------------------------------*/
