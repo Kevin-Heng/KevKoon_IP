@@ -280,3 +280,8 @@ function changeNavBar_member(){
     about_content.appendChild(textContainer);
 }
 
+function openSketchfab() {
+    // Show the Sketchfab container
+    var sketchfabContainer = document.getElementById("sketchfab-container");
+    sketchfabContainer.style.display = (sketchfabContainer.style.display === 'none') ? 'flex' : 'none';
+}
