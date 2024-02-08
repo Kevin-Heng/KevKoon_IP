@@ -965,3 +965,120 @@ table{
     justify-content: left;
     align-items: left;
 }
+
+/*------------------------------------------Shop page----------------------------------------------*/
+#points-money{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width:90%;
+    margin:auto;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Lexend', sans-serif;
+    align-items: center;
+}
+
+#points{
+    font-size: 18px;
+}
+
+#money-exchange{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+#shop-section{
+    display: flex;
+    flex-direction: column;
+    height:800px;
+    width: 90%;
+    margin:auto;
+    align-self: center;
+    justify-self: center;
+    margin-top: 30px;
+    font-family: 'Lexend', sans-serif;
+}
+
+#shop-welcomeText{
+    font-size: 25px;
+}
+
+#shop-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:800px;
+    width: 95%;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    height:300px;
+    width:380px;
+    background-color: #fae2a4;
+    border:2px solid black;
+    align-items: center;
+}
+
+#one-cent, #one-dollar{
+    height:120px;
+    width:120px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#ten-dollar{
+    height:80px;
+    width:200px;
+    padding-top:68px;
+    padding-bottom:20px;
+
+}
+
+#trophy{
+    height:140px;
+    width:80px;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+
+#item-details{
+    display: flex;
+    background-color: #ffd66e;
+    height:150px;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#point-value{
+    font-size: 20px;
+    width:100%;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#exchange-button{
+    margin-top:20px;
+    font-size: 18px;
+    height:40px;
+    width:150px;
+    background-color: #F38C75;
+    border-radius: 30px;
+    border:2px solid #ff7373;
+}
+
+#exchange-button:hover{
+    cursor: pointer;
+    background-color: rgba(243,140,117,0.8);
+    border:2px solid rgba(255, 125, 125, 0.5);
+}
