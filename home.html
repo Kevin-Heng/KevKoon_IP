@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <!--Nav Bar-->
+        <header>
+            <nav>
+                <div id="logo">
+                    <img src="logo.png">
+                </div>
+                <ul class="nav_links">
+                    <li><a id="home">Home</a></li>
+                    <li><a href="about us.html" id="about-us">About us</a></li>
+                    <li><a href="shop.html" id="shop">Shop</a></li>
+                </ul>
+                <a href="account.html" id="account-icon"></a>
+            </nav>
+        </header>
+
+        <!--Welcome info-->
+        <section id="intro">
+            <div id="welcome-text">
+                <div id="welcome-title">Welcome to MONEE!</div>
+                <div id="welcome-desc">Save money with MONEE</div>
+            </div>
+            <img id="welcome-img" src="blank.jpg">
+        </section>
+
+        <!--Show info of main features-->
+        <section id="features">
+            <h1 id="features-text">Features</h1>
+            <ul class="features-items">
+                <li><button id="plan-button" onclick="changePlanFeature()">PLAN</button></li>
+                <li><button id="track-button" onclick="changeTrackFeature()">TRACK</button></li>
+                <li><button id="collab-button" onclick="changeCollabFeature()">COLLABORATE</button></a></li>
+            </ul>
+
+            <div id="info">
+                <div class="feature-desc">
+                    <div id="feature-name">Plan</div>
+                    <div id="main-desc">Get down to the nitty gritty of planning your finance</div>
+                </div>
+                <img id="feature-img" src="pikachu.png">
+            </div>
+        </section>
+        
+        <!--Advertise mobille app-->
+        <section id="mobile-app">
+            <div id="app-text">
+                <div>MONEE is available on mobile</div>
+                <div>Download NOW!</div>
+            </div>
+            <div id="app-img">
+                <img src="phone.png">
+            </div>
+
+        </section>
+    </body>
+
+    <!--Socials-->
+    <footer>
+        <section id="social-media">
+            <img src="logo.png" id="socials-logo">
+            <section id="socials-icons">
+                <img id="facebook-icon" src="facebook.png">
+                <img  id="instagram-icon" src="instagram.png">
+                <img  id="x-icon" src="x.png">
+            </section>
+        </section>
+
+        <section id="company-info">
+            <section id="resource">
+                <div id="resource-title">Resources</div>
+                <div class="resource-info">Technical Support</div>
+                <div class="resource-info">My Account</div>
+                <div class="resource-info">Get Started</div>
+            </section>
+
+            <section id="about">
+                <div id="about-title">About MONEE</div>
+                <div class="about-info">Company</div>
+                <div class="about-info">Careers</div>
+                <div class="about-info">Events</div>
+            </section>
+
+            <section id="contact">
+                <div id="contact-title">Contact us</div>
+                <div class="contact-info">h: +65 65552856 </div>
+                <div class="contact-info">e: monee@gmail.com.sg</div>
+                <div class="contact-info">Monday - Friday: 9am-7pm</div>
+            </section>
+
+        </section>
+    </footer>
+</html>
