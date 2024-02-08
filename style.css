@@ -493,9 +493,9 @@ body{
 
 }
 
-#content{
+#content-account{
     display: flex;
-    height:1200px;
+    height:2350px;
     width:80%;
     flex-direction: column;
     align-items: center;
@@ -727,4 +727,28 @@ canvas{
 #amt-saved{
     font-size:15px;
     margin-left:30px;
+}
+
+/*------------------------------------------Friends page-----------------------------------------------*/
+#your-friends{
+    display: flex;
+    width:900px;
+    justify-content: flex-start;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+#friends-details{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height:600px;
+    background-color: #ffe194;
+    margin-top: 20px;
+}
+
+.friend{
+    display: flex;
+    width:900px;
+    height:200px;
 }
