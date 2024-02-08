@@ -651,5 +651,87 @@ iframe{
 /*-----------------------------------------Plan & Track-----------------------------------------------*/
 canvas{
     height:600px;
-    width:1000px;
+    width:900px;
+    background-color: #ffe194;
+    margin-bottom:50px;
+}
+
+#planning{
+    display: flex;
+    width:900px;
+    justify-content: flex-start;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+#create-goal{
+    display: flex;
+    width:900px;
+    border:2px dotted ;
+    height:80px;
+    margin-top:30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fae2a4;
+    font-size: 18px;
+}
+
+#savings-goal{
+    display: flex;
+    flex-direction: column;
+    width:900px;
+    height:150px;
+    background-color: #ffe194;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin-top:30px;
+    background-image: url(bday.jpeg);
+    background-size: cover;
+    background-position: center ;
+    align-items: center;
+    background-position-y: -400px;
+
+}
+
+
+#goal-name{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top:20px;
+}
+
+#goal-duration{
+    font-size: 13px;
+    padding-left:30px;
+    padding-top:15px;
+}
+
+#goal-progress{
+    width:600px;
+    height:20px;
+    margin-left:30px;
+    margin-top:20px;
+    border: 2px solid #000000;
+}
+
+#goal-progress-bar{
+    width:200px;
+    height:20px;
+    background-color: #009444;
+}
+
+#values{
+    display: flex;
+    flex-direction: row;
+    margin-top:5px;
+}
+#goal-amt{
+    font-size: 15px;
+    margin-left: 550px;
+}
+
+#amt-saved{
+    font-size:15px;
+    margin-left:30px;
 }

@@ -50,17 +50,19 @@
                 <section id="content">
                     <!--Graph-->
                     <div>
-                        <canvas id="myChart"></canvas>
+                        <canvas id="monthlySavings"></canvas>
                     </div>
                     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
                     <script>
                         //set up
                         const labels = [
-                            'Week 1',
-                            'Week 2',
-                            'Week 3',
-                            'Week 4',
-
+                            'January',
+                            'Febuary',
+                            'March',
+                            'April',
+                            'May',
+                            'June',
+                            'July',
                             ];
                             const data = {
                             labels: labels,
@@ -85,9 +87,9 @@
                                 plugins: {
                                     legend: {position: 'top',},
                                     title: {display: true, 
-                                        text: 'Savings between last month and this month',
+                                        text: 'Savings between months',
                                         font:{
-                                        size:25,
+                                        size:20,
                                         }
                                     }, 
                                 
@@ -98,7 +100,7 @@
                                             display:true,
                                             text:'Weeks',
                                             font:{
-                                                size:20,
+                                                size:16,
                                             }
                                         }
                                     },
@@ -107,7 +109,7 @@
                                             display:true,
                                             text:'Amt of money saved/$',
                                             font:{
-                                                size:20,
+                                                size:16,
                                             }
                                         }
                                         },
@@ -118,13 +120,29 @@
                             
 
                         //render
-                        var myChart = new Chart(
-                          document.getElementById('myChart'),
+                        var monthlySavings = new Chart(
+                          document.getElementById('monthlySavings'),
                           config
                         );
 
                       </script>
-
+                    <section id="planning">
+                        <div>Plan your savings goal</div>
+                        <section id="create-goal">
+                            <div>Create a savings goal</div>
+                        </section>
+                        <section id="savings-goal">
+                            <div id="goal-name">Birthday present</div>
+                            <div id="goal-duration">Ends 16 Feb</div>
+                            <div id="goal-progress">
+                                <div id="goal-progress-bar"></div>
+                            </div>
+                            <div id="values">
+                                <div id="amt-saved">$50</div>
+                                <div id="goal-amt">$150</div>
+                            </div>
+                        </section>
+                    </section>
                 </section>
             </section>
         </section>
